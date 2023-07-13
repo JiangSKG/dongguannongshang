@@ -12,7 +12,7 @@ def load_data(filepath:str)->pd.DataFrame:
     data_without_header.columns = columns
     data = data_without_header
 
-    #记录空值情况
+    # 记录空值情况
     for column in list(data.columns):
         none_index = []
         for i,v in enumerate(list(data[column].isnull())):
