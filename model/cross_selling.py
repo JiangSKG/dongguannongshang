@@ -9,7 +9,7 @@ import os
 import json
 from data_process.retail_customer_dataloader import load_data
 
-#产品和编号的对应
+# 产品和编号的对应
 product_info = {"存款":1,"保险":2,"基金和积利宝":3,"积存金":4,"理财":5,"国债":6,"代销资管产品":7,"贷款和信用卡":8}
 _, _, _,groupby_columns,relation_columns = get_retail_customer_data_structure()
 products_name = [list(i.keys())[0] for i in relation_columns]
