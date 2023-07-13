@@ -108,3 +108,4 @@
 - 模型文件
 
   默认放在项目目录的model/下面,名称和功能相对应，其中对私的两个功能共用一个模型retail_customer.pkl。流失预警的为customer_losing.pkl;潜客推荐的为customer_potential.pkl
+# dongguannongshang
